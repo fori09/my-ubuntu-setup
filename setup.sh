@@ -24,5 +24,7 @@ sudo add-apt-repository ppa:nathan-renniewaldock/flux &&
 sudo apt-get install fluxgui &&
 #VirtualBox
 sudo apt-get install virtualbox &&
+#Krita
+sudo apt-get install krita &&
 #End
 echo'End'
