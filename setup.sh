@@ -19,5 +19,8 @@ sudo apt-get install sublime-text &&
 #Vlc
 sudo apt-add-repository ppa:videolan/sable-daily &&
 sudo apt-get install vlc &&
+# Flux
+sudo add-apt-repository ppa:nathan-renniewaldock/flux &&
+sudo apt-get install fluxgui &&
 #End
 echo'End'
