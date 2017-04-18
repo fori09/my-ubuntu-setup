@@ -26,5 +26,10 @@ sudo apt-get install fluxgui &&
 sudo apt-get install virtualbox &&
 #Krita
 sudo apt-get install krita &&
+#Discord
+wget -O discord.deb "https://discordapp.com/api/download?platform=linux&format=deb" &&
+dpkg -i discord.deb &&
+rm discord.deb
+
 #End
 echo'End'
