@@ -22,5 +22,7 @@ sudo apt-get install vlc &&
 # Flux
 sudo add-apt-repository ppa:nathan-renniewaldock/flux &&
 sudo apt-get install fluxgui &&
+#VirtualBox
+sudo apt-get install virtualbox &&
 #End
 echo'End'
