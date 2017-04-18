@@ -33,4 +33,4 @@ dpkg -i discord.deb &&
 rm discord.deb &&
 
 #End
-echo'End'
+echo -e '\e[32m End'
