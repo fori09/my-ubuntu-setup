@@ -30,6 +30,10 @@ sudo apt-get install krita &&
 wget -O discord.deb "https://discordapp.com/api/download?platform=linux&format=deb" &&
 sudo dpkg -i discord.deb &&
 rm discord.deb &&
+#Teamviewer
+wget -O teamviewer.deb "https://download.teamviewer.com/download/teamviewer_i386.deb" &&
+sudo dpkg -i teamviewer.deb &&
+rm teamviewer.deb &&
 #LAMP
 sudo apt install apache2 php mysql-server libapache2-mod-php php-mysql &&
 sudo apt-get install php7.0-curl php7.0-cli php7.0-dev php7.0-gd php7.0-intl php7.0-mcrypt php7.0-json php7.0-mysql php7.0-opcache php7.0-bcmath php7.0-mbstring php7.0-soap php7.0-xml php7.0-zip -y &&
