@@ -1,12 +1,11 @@
-#Global
-sudo apt-get update &&
 #Repository
 sudo add-apt-repository ppa:ubuntu-desktop/ubuntu-make &&
 sudo add-apt-repository ppa:webupd8team/sublime-text-2 &&
-sudo apt-add-repository ppa:videolan/sable-daily &&
 sudo add-apt-repository ppa:nathan-renniewaldock/flux &&
 sudo sh -c 'echo "deb https://atlassian.artifactoryonline.com/atlassian/hipchat-apt-client $(lsb_release -c -s) main" > /etc/apt/sources.list.d/atlassian-hipchat4.list' &&
 wget -O - https://atlassian.artifactoryonline.com/atlassian/api/gpg/key/public | sudo apt-key add - &&
+#Global
+sudo apt-get update &&
 #ubuntu-make
 sudo apt-get install ubuntu-make &&
 # Exfat
@@ -35,7 +34,7 @@ rm discord.deb &&
 sudo apt install apache2 php mysql-server libapache2-mod-php php-mysql &&
 sudo apt-get install php7.0-curl php7.0-cli php7.0-dev php7.0-gd php7.0-intl php7.0-mcrypt php7.0-json php7.0-mysql php7.0-opcache php7.0-bcmath php7.0-mbstring php7.0-soap php7.0-xml php7.0-zip -y &&
 #Composer
-sudo apt install composer &&
+sudo apt-get install composer &&
 #Node
 sudo apt-get install nodejs &&
 sudo apt-get install npm &&
