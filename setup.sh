@@ -28,7 +28,7 @@ sudo apt-get install virtualbox &&
 sudo apt-get install krita &&
 #Discord
 wget -O discord.deb "https://discordapp.com/api/download?platform=linux&format=deb" &&
-dpkg -i discord.deb &&
+sudo dpkg -i discord.deb &&
 rm discord.deb &&
 #LAMP
 sudo apt install apache2 php mysql-server libapache2-mod-php php-mysql &&
