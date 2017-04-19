@@ -41,4 +41,4 @@ sudo apt-get install npm &&
 #Bower
 sudo npm install -g bower &&
 #End
-echo -e '\e[32m End'
+echo -e '\e[32mEnd'
